@@ -15,6 +15,7 @@
 		4E77F5821C34C23300004843 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E77F5801C34C23300004843 /* LaunchScreen.xib */; };
 		4E77F58E1C34C23300004843 /* JustTryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E77F58D1C34C23300004843 /* JustTryTests.m */; };
 		4E77F5991C34C27100004843 /* FirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E77F5981C34C27100004843 /* FirstTableViewCell.m */; };
+		4E77F59C1C34C6FC00004843 /* SecondTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E77F59B1C34C6FC00004843 /* SecondTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		4E77F58D1C34C23300004843 /* JustTryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JustTryTests.m; sourceTree = "<group>"; };
 		4E77F5971C34C27100004843 /* FirstTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewCell.h; sourceTree = "<group>"; };
 		4E77F5981C34C27100004843 /* FirstTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewCell.m; sourceTree = "<group>"; };
+		4E77F59A1C34C6FC00004843 /* SecondTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableViewCell.h; sourceTree = "<group>"; };
+		4E77F59B1C34C6FC00004843 /* SecondTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 		4E77F5651C34C23300004843 = {
 			isa = PBXGroup;
 			children = (
+				4E77F59A1C34C6FC00004843 /* SecondTableViewCell.h */,
+				4E77F59B1C34C6FC00004843 /* SecondTableViewCell.m */,
 				4E77F5971C34C27100004843 /* FirstTableViewCell.h */,
 				4E77F5981C34C27100004843 /* FirstTableViewCell.m */,
 				4E77F5701C34C23300004843 /* JustTry */,
@@ -225,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E77F57A1C34C23300004843 /* ViewController.m in Sources */,
+				4E77F59C1C34C6FC00004843 /* SecondTableViewCell.m in Sources */,
 				4E77F5771C34C23300004843 /* AppDelegate.m in Sources */,
 				4E77F5991C34C27100004843 /* FirstTableViewCell.m in Sources */,
 				4E77F5741C34C23300004843 /* main.m in Sources */,
